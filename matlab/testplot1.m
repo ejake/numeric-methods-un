@@ -1,4 +1,4 @@
-/*Simple plot example*/
+% Simple plot example
 
 clear all;
 close all;

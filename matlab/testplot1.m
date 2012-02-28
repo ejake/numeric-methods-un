@@ -1,3 +1,5 @@
+/*Simple plot example*/
+
 clear all;
 close all;
 

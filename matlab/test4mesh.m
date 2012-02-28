@@ -10,10 +10,12 @@ z2 = -exp(-(x+1).^2 - (y+1).^2);
 z = z1+z2;
 meshc(x,y,z) % surface in x
 %mesh(x,y,z)
+title('Gaussian plot')
 % view(60,30)
 % animate plot:
 for i=1:10:360
     meshc(x,y,z)
+    title('Gaussian plot')
     view(30,i)
-    pause(2)
+    pause(0.5)
 end
